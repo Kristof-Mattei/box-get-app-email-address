@@ -1,6 +1,6 @@
-from .shared import get_box_client
-from .get_app_user_login import get_box_client_login
-from .upload_file import get_stream_from_file, upload_file_to_box
+from .lib.shared import get_box_client
+from .lib.get_app_user_login import get_box_client_login
+from .lib.upload_file import get_stream_from_file, upload_file_to_box
 
 box_client = get_box_client()
 
